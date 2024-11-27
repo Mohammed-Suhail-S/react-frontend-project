@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "id": "ac01",
+      "name": "mohammed",
+      "email": "mohammed@1234",
+      "password": "1234"
+    },
+    {
+      "id": "f045",
+      "name": "Mohammed Suhail",
+      "email": "mohammedsuhail@gmail.com",
+      "password": "suhailthesilent"
+    },
+    {
+      "id": "d76a",
+      "name": "Basith",
+      "email": "basith@gmail.com",
+      "password": "basiththegoat"
+    },
+    {
+      "id": "0c35",
+      "name": "Bukhari",
+      "email": "bukhari@gmail.com",
+      "password": "bukhariappan"
+    },
+    {
+      "id": "6a06",
+      "name": "Asif",
+      "email": "asifali@gmail.com",
+      "password": "asifali"
+    },
+    {
+      "id": "58cd",
+      "name": "Praveen",
+      "email": "praveen@gmail.com",
+      "password": "praveenbro"
+    },
+    {
+      "id": "2908",
+      "name": "Mohammed Fayas",
+      "email": "fayas@gmail.com",
+      "password": "fayaspuli"
+    }
+  ]
+}
