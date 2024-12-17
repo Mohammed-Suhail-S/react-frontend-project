@@ -1,0 +1,75 @@
+.signup_section {
+    background: linear-gradient(to right, #d16ba5, #86a8e7, #5ffbf1);
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup_container {
+    height: 550px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.signup_content h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.signup_field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.signup_field input {
+    height: 50px;
+    width: 400px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.signup_field input::placeholder {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.signup_field button {
+    height: 50px;
+    width: 150px;
+    color: white;
+    background-color: red;
+    border-radius: 12px;
+    margin-top: 0px;
+    font-size: 21px;
+    border: none;
+    cursor: pointer;
+    align-content: center;
+}
+
+.signup_field button:active {
+    background-color: crimson;
+}
+
+.signup_login {
+    margin-top: -10px;
+    color: grey;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.signup_login b {
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.signup_login b:active {
+    color: crimson;
+}

@@ -1,0 +1,349 @@
+.mobile_section {
+    background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
+    padding: 20px;
+    height: 100%;
+}
+
+.main_navbar {
+    background-color: #9907d3;
+    height: 75px;
+}
+
+.main_menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(./Bethany\ Elingston.otf);
+}
+
+.name {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: myFont;
+    margin: 23px 0px 0px 0px;
+    color: white;
+}
+
+.user {
+    color: white;
+    margin: 10px 40px 0px 0px;
+}
+
+.icon {
+    border: none;
+    background-color: transparent;
+    color: white;
+    margin-top: -20px;
+    transition: 0.5s;
+}
+
+.icon:hover {
+    color: black;
+}
+
+.mobile_overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile_overlay_content {
+    background-color: white;
+    padding: 60px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    animation: scaleIn 0.3s ease; 
+}
+
+.mobile_overlay_content h2 {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mobile_button1, .mobile_button2 {
+    color: white;
+    background-color: #007BFF;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.mobile_button2 {
+    margin-left: 50px;
+}
+
+.mobile_button1:hover, .mobile_button2:hover {
+    background-color: #0056b3;
+}
+
+.mobile_container {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.heading {
+    font-family: myFont;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+
+.mobile_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 25px;
+}
+
+.mobile_card {
+    height: 450px;
+    width: 400px;
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.mobile_card:hover {
+    scale: 1.1;
+    box-shadow: 
+    5px 5px 10px rgba(255, 0, 255, 0.6), 
+    10px 10px 15px rgba(255, 255, 0, 0.4), 
+    15px 5px 20px rgba(0, 0, 0, 0.3), 
+    5px 10px 10px rgba(128, 128, 128, 0.2); 
+}
+
+.mobile_card img {
+    height: 175px;
+    width: 175px;
+    margin-top: -10px;
+    transition: 1s;
+}
+
+.mobile_card img:hover {
+    height: 225px;
+    width: 225px;
+}
+
+.Pname, .Prating {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mobile_rating {
+    color: gold;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    gap: 8px;
+}
+
+.mobile_price p {
+    color: green;
+    font-weight: 600;
+}
+
+.mobile_price s {
+    color: red;
+    font-weight: 600;
+}
+
+.mobile_btn {
+    height: 40px;
+    width: 140px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #f39c12, #e67e22); 
+    transition: 0.07s;
+}
+
+.mobile_btn:hover {
+    background: linear-gradient(to right, #e67e22, #f39c12); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); 
+}
+
+.mobile_btn:active {
+    background: orangered;
+}
+
+.cart_section {
+    background-color: mintcream;
+    margin-top: 50px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.cart_section h3 {
+    font-family: myFont;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.cart_section p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart_check {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.3s;
+}
+
+.cart_check:hover {
+    background-color: green;
+}
+
+.cart_align {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.cart_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.cart_item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.cart_item p {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cart_remove {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.3s;
+}
+
+.cart_remove:hover {
+    background-color: red;
+}
+
+.mobile_footer {
+    height: 225px; 
+    background-color: #9907d3; 
+    margin-top: 80px;
+}
+
+.mobile_icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 35px;
+    position: relative;
+    top: 35px;
+}
+
+.icon_link {
+    color: white;
+    transition: color 0.3s ease; 
+}
+
+.facebook_icon, .twitter_icon, .whatsapp_icon, .youtube_icon, .google_icon {
+    transition: 0.3s;
+}
+
+.facebook_icon:hover {
+    color: #3b5998; 
+    transform: scale(1.2);
+}
+    
+.twitter_icon:hover {
+    color: #1da1f2; 
+    transform: scale(1.2);
+}
+    
+.whatsapp_icon:hover {
+    color: #25d366; 
+    transform: scale(1.2);
+}
+    
+.youtube_icon:hover {
+    color: #ff0000; 
+    transform: scale(1.2);
+}
+    
+.google_icon:hover {
+    color: #db4437; 
+    transform: scale(1.2);
+}
+
+.footer_text {
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 60px;
+}
+  
+@keyframes scaleIn {
+    from {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+}

@@ -1,0 +1,43 @@
+body {
+    background-color: white;
+}
+
+.container {
+    height: 690px;
+    width: 910px;
+    background-color: #fbfaff;       
+    transform: translate(323px,25px);
+    border-radius: 20px;
+    box-shadow: 10px 10px 13px rgba(0, 0, 0, 0.3);
+}
+
+.content, .content2 {
+    height: 615px;  
+    width: 400px;
+}
+
+.content {
+    position: relative;
+    top: 65px;
+    left: 50px;
+}
+
+.content2 {
+    position: relative;
+    top: -556px;
+    left: 527px;
+}
+
+@font-face {
+    font-family: myFont1;
+    src: url(./Fonts/OTF/Satoshi-Bold.otf);
+}
+
+h1 {
+    font-family: myFont1;
+    transform: translate(20px,-10px);
+} 
+
+.MuiFormLabel-asterisk {
+    color: red;
+} 
